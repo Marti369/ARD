@@ -19,16 +19,6 @@ header {
     z-index: 9999;
 }
 
-.title {
-    width: 45%;
-    margin-top: 10px;
-}
-
-header a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.5);
-}
-
 
 /* header nav {
     margin: 7px 0;
