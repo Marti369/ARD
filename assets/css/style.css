@@ -19,6 +19,11 @@ header {
     z-index: 9999;
 }
 
+.bg-light {
+    background-color: #ff9c4b8a!important;
+    font-size: 1.5vw;
+}
+
 
 /* header nav {
     margin: 7px 0;
@@ -85,11 +90,20 @@ footer div {
 
 .hero-form {
     border: 3px solid rgba(160, 145, 145, 0.719);
-    background-color: rgba(202, 85, 76, 0.308);
+    background-color: rgba(202, 84, 76, 0.644);
     padding: 7px;
     width: 40%;
     margin: 1.5%;
     color: rgb(0, 0, 0);
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 982px) {
+    .screen {
+        font-size: 20px;
+    }
+    .hero-form {
+        width: 75%;
+    }
 }
