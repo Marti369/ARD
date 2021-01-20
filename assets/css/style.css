@@ -24,36 +24,6 @@ header {
     font-size: 1.5vw;
 }
 
-
-/* header nav {
-    margin: 7px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-header nav ul li a {
-    padding: 10px 15px;
-    font-weight: 200;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-header nav ul li a:hover {
-    background-color: blanchedalmond;
-    color: var(--secondary-color);
-    border-radius: 15px;
-    text-shadow: none;
-} */
-
 footer h2,
 footer div {
     text-align: center;
@@ -99,9 +69,21 @@ footer div {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.ariPic {
+    border: 3px solid rgba(160, 145, 145, 0.719);
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 400px;
+}
+
 @media screen and (max-width: 982px) {
     .screen {
         font-size: 20px;
+    }
+    .ariPic {
+        height: 250px;
+        margin-top: 50px;
     }
     .hero-form {
         width: 75%;
